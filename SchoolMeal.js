@@ -13,9 +13,9 @@ var nMonth = "09";
 
 var nDate = "11";
 
-var 시간 = new Date().toISOString().replace(/-/g,"").slice(0,8);
+시간 = new Date().toISOString().replace(/-/g,"").slice(0,8);
 
-var 날짜 = new Date().toLocaleString().split("일")[0]+"일"; 
+날짜 = new Date().toLocaleString().split("일")[0]+"일"; 
 
 var Allsee="\u200b".repeat(500); 
 
